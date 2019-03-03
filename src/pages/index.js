@@ -4,6 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/layout';
 import Image from '../components/image';
 import SEO from '../components/seo';
+import Counter from '../components/counter';
 
 const IndexPage = () => (
   <Layout>
@@ -18,7 +19,7 @@ const IndexPage = () => (
     <br />
     <Link to="/page-3/">Go to page 3</Link>
     <br />
-    <Link to="/counter/">Counter</Link>
+    <Counter color="blue" />
   </Layout>
 );
 
